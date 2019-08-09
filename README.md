@@ -1,4 +1,4 @@
-# Ponder x
+# Ponder
 
 Welcome to Ponder. Ponder is a simple text scratchpad that saves your thoughts.
 
