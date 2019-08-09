@@ -39,6 +39,22 @@ p {
     color: silver;
     text-align: right;
 }
+span {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version (Chrome / Opera) */
+}
+.goleft {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.goright {
+    padding-left: 20px;
+    cursor: pointer;
+}
 /* desktop screens */
 @media only screen and (min-width: 800px) {
     ul {

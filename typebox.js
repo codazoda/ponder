@@ -18,10 +18,20 @@ function textSave() {
 }
 
 function textLoad(fileNumber) {
+    // Update the current file number global
+    if (fileNumber < 0) {
+        fileNumber = 0;
+    }
+    if (fileNumber > 9) {
+        fileNumber = 9;
+    }
+    currentFileNumber = fileNumber;
+    // Load the file from storage
     storageKey = "file-" + fileNumber;
     typebox = document.getElementById('typebox');
     typebox.value = localStorage.getItem(storageKey);
-    console.log("loaded: " + storageKey);
+    // Update the file number indicator
+    document.getElementById('fileId').innerHTML = "File " + fileNumber;
 }
 
 function checkKey(e) {
@@ -36,12 +46,8 @@ function checkKey(e) {
             console.log("switching");
             // The 0 key starts at 48, subtract that to get the key number
             fileNumber = e.keyCode - 48;
-            // Update the current file number
-            currentFileNumber = fileNumber;
             // Load the text for this file number from local storage
             textLoad(fileNumber);
-            // Update the file number indicator
-            document.getElementById('fileId').innerHTML = "File " + fileNumber;
             // Output some debug code
             console.log("File " + fileNumber);
         }

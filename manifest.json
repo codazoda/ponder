@@ -1,9 +1,9 @@
 {
-    "short_name": "SMS",
-    "name": "SMS Checklists",
+    "short_name": "Ponder",
+    "name": "Ponder",
     "icons": [
       {
-        "src": "favicon/favicon-192.png",
+        "src": "ponder-192.png",
         "sizes": "192x192",
         "type": "image/png"
       }
