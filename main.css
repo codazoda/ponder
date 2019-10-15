@@ -8,7 +8,7 @@ body {
     background-color: #EEE; 
     margin: 20px;
     padding: 0; 
-    font-family: sans-serif; 
+    font-family: monospace; 
     font-size: 16px;
 }
 textarea {
@@ -23,7 +23,7 @@ textarea {
     background-color: white;
     resize: none;
     overflow: auto;
-    font-family: sans-serif;
+    font-family: monospace;
     font-size: 16px;
     color: #444;
 }
