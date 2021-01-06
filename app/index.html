@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Ponder</title>
+
+    <meta charset="UTF-8">
+
+    <!-- Mobile Magic -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- Icons -->
+	<link rel="shortcut icon" type="image/png" href="/ponder.png"/>
+	<link rel="icon" type="image/png" sizes="512x512" href="ponder.png">
+
+</head>
+
+<body onkeydown="checkKey(event)">
+
+	<p id="toolbox">
+        <span class="goleft" onclick="textLoad(currentFileNumber - 1)">&lt;</span>
+        <span id="fileId">File 1</span>
+        <span class="goright" onclick="textLoad(currentFileNumber + 1)">&gt;</span>
+    </p>
+	<textarea id="typebox" onkeyup="checkKey(event)" autofocus></textarea>
+	
+	<!-- External Javascript -->
+	<script src="typebox.js"></script>
+
+</body>
+
+</html>

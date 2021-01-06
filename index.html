@@ -4,34 +4,38 @@
 
     <title>Ponder</title>
 
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="neat.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
 
-    <!-- Mobile Magic -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="manifest" href="manifest.json">
-
-    <!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="main.css">
-
-    <!-- Icons -->
-	<link rel="shortcut icon" type="image/png" href="/ponder.png"/>
-	<link rel="icon" type="image/png" sizes="512x512" href="ponder.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
-<body onkeydown="checkKey(event)">
+<body>
 
-	<p id="toolbox">
-        <span class="goleft" onclick="textLoad(currentFileNumber - 1)">&lt;</span>
-        <span id="fileId">File 1</span>
-        <span class="goright" onclick="textLoad(currentFileNumber + 1)">&gt;</span>
-    </p>
-	<textarea id="typebox" onkeyup="checkKey(event)" autofocus></textarea>
-	
-	<!-- External Javascript -->
-	<script src="typebox.js"></script>
+    <h1 class="hero center">Ponder</h1>
+
+    <p class="center">Impromptu Writing Made Easy</p>  
+
+    <div class="center" style="margin-top: 50px; margin-bottom: 50px;">
+        <a href="https://ponder.joeldare.com/app" class="button light" target="_blank">Try Free</a>
+        <a href="https://gum.co/ponder" class="button main">Buy Now</a>
+    </div>
+    
+    <img src="ponder.png">
+
+
+    <h2>Your Scratch Pad</h2>
+    
+    <p>Jot down quick drafts whenever inspiration strikes. The first few words are always the hardest to write. Ponder is a ten file scratch pad that works in your web browser. It's designed to mimic the simplicity and distraction free writing experience of electronic word processors from the past.</p>
+
+    <h2>Private and Offline</h2>
+
+    <p>Ponder is private. Although it runs in your browser it was designed to work completely offline. Documents are stored in your local browser storage and are not transmitted to a central server.</p>
+
+    <h2>You Own It</h2>
+
+    <p>When you buy Ponder, you get a perpetual license for the current version and a download that you can run from your own computer. You also support the author so that I can create Ponder improvements and other great software.</p>
 
 </body>
 
