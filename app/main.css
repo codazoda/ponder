@@ -10,6 +10,7 @@ body {
     padding: 0; 
     font-family: monospace; 
     font-size: 16px;
+    overflow: hidden;
 }
 textarea {
     display: block;
