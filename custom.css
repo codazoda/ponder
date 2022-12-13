@@ -9,6 +9,7 @@ body {
 
 .button {
     padding: 8px 35px 8px 35px;
+    margin-top: 10px;
 }
 
 .light {
@@ -17,4 +18,9 @@ body {
 
 .main {
     background-color: #0066CC;
+}
+
+.fixed {
+    width: 12rem;
+    white-space: nowrap;
 }
