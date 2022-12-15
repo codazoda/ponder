@@ -6,10 +6,22 @@ A simple text scratchpad that saves your thoughts.
 
 ## Getting Started
 
+Ponder is available on my website at https://ponder.joeldare.com/app or you can download it and host it yourself. To create your own version do the following.
+
 - Clone the repo
 - Open `app/index.html` in your favorite browser
 
 Ponder is a static web app. It stores it's data in local storage in the web browser. It can be hosted anywhere static sites can be hosted or it can be opened directly from your disk.
+
+## Temporary and Private
+
+Notes in Ponder are temporary and private. Your notes are never transmitted out of your browser.
+
+The down-side of this approach is that your notes only exist in the browser where you created them. For example, if you create notes on desktop and then open Ponder on your phone, you'll have a different set of notes on each device.
+
+The notes are NOT backed up over the internet. You can lose notes if your browsers cache is cleared. This makes it a good solution for a temporary and private scratch pad.
+
+Although private, your notes are not encrypted or secured. There is no username or password mechanism. You should not use Ponder from a public computer as a later user could see your notes.
 
 ## Use Cases
 
