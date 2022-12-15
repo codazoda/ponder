@@ -29,7 +29,7 @@ I use Ponder as a quick scratch pad in my browser. As a web developer, I spend m
 
 I use it to jot down quick notes while I'm in meetings. If parts of those notes turn out to be important, I can copy/paste the notes to a more permanent document, into emails or messages, etc.
 
-I use it to write longer comments that I'm going to send in chat apps like Slack. This prevents me from showing up as "Joel is typing" as I compose a longer message or response and it prevents me from accidentally sending something that I was finished writing.
+I use it to write longer comments that I'm going to send in chat apps like Slack. This prevents me from showing up as "Joel is typing" as I compose a longer message or response and it prevents me from accidentally sending something that I wasn't finished writing.
 
 I use it to write letters that I don't intend to keep electronic copies of. When you print ponder it hides the navigation, resulting in an old-school typewriter looking printed document.
 
